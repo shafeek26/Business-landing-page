@@ -4,7 +4,7 @@
 
 # Project Name : Business Landing Page!
 
-In this project i have created a landing page from scratch. And i have learnt a lot of things like how to position HTML elements using common CSS selectors,i have also learnt about positions.i used fully flexbox in this project.
+In this project i have created a Business landing page from scratch. And i have learnt a lot of things like how to position HTML elements using common CSS selectors,i have also learnt about positions.i used fully flexbox in this project.
 
 ![HTML](https://img.shields.io/badge/-HTML-orange)
 ![positions](https://img.shields.io/badge/-CSS%20positions-blue)
@@ -24,4 +24,4 @@ In this project i have created a landing page from scratch. And i have learnt a 
 ![image](images/page.png)
 
 ## You can Preview it Live on Below Link :
-**[Live Link !](https://11-hosting-service-provider.netlify.app/)**
+**[Live Link !](https://12-besiness-landing-page.netlify.app/)**
