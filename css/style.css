@@ -184,6 +184,15 @@ input{
     align-items: center;
     font-family: "Montserrat",sans-serif;
 }
+.bottoms-row{
+    width: 100vw;
+    max-width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+}
 .bottom-div{
     width: 40%;
     margin: 0 20px;
@@ -279,4 +288,108 @@ hr{
     line-height: 2.5;
     color: #7e8181;
     text-transform: capitalize;
+}
+.fa-bars{
+    display: none;
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+/* media quesrries goes here */
+
+@media screen and (max-width:1034px) {
+    input{
+        width: 70%;
+        padding: 14px;
+    }
+    .btn{
+        padding: 10px 30px;
+        background-color: #02B290;
+        border: none;
+        color: #ffffff;
+    }
+    .btn-header{
+        position: relative;
+        display: inline;
+        right: 7.5rem;
+    }
+    
+}
+@media screen and (max-width:820px) {
+    .list{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:940px) {
+     .header-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    header{
+        height: 1000px;
+    }
+    input{
+        width: 80%;
+        padding: 12px;
+        margin: 0 auto;
+    }
+    .btn{
+        padding: 8px 25px;
+        background-color: #02B290;
+        border: none;
+        color: #ffffff;
+    }
+    .btn-header{
+        position: relative;
+        display: inline;
+        right: 0;
+        margin-top: 20px;
+    }
+    .main-heading{
+        font-size: 30px;
+    }
+    .row{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-row{
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .row-content{
+        text-align: center;
+        width: 70%;
+    }
+    .image-div{
+        margin-right: 150px;
+        margin-bottom: 20px;
+    }
+    .row-heading{
+        font-size: 30px;
+    }
+    .team{
+        max-width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-member{
+        margin-bottom: 30px;
+    }
+    .bottom-heading{
+        font-size: 30px;
+    }
+    .bottom-text{
+        font-size: 14px;
+    }
+    
 }
